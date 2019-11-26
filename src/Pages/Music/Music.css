@@ -1,0 +1,23 @@
+.category-links {
+    height: 0;
+    position: relative;
+    top: -70px;
+    text-align: right;
+}
+
+.category-description {
+    margin-bottom: 50px;
+}
+
+.category-links svg {
+    height: 30px;
+    margin: 10px;
+}
+
+.category-links svg, .category-links svg * {
+    fill: #4A3932;
+}
+
+.category-links svg:hover, .category-links svg:hover * {
+    fill: #C7AB59;
+}

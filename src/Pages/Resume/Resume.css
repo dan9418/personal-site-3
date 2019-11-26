@@ -1,0 +1,92 @@
+/* Resume Position */
+
+.resume-position-header {
+    padding: 10px;
+    border-radius: 5px;
+    background: #d3cdc4;
+    text-align: left;
+}
+
+.resume-position-header-top, .resume-position-header-bottom {
+    position: relative;
+}
+
+.resume-position-header-company {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.resume-position-header-title {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.resume-position-header-date,
+.resume-position-header-location {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.resume-position-header-date svg,
+.resume-position-header-location svg {
+	height: 16px;
+    width: 16px;
+    padding: 0;
+    padding-right: 5px;
+    fill: #333;
+}
+
+.resume-position-header-date svg *,
+.resume-position-header-location svg * {
+    fill: #333;
+}
+
+/* Resume Detail */
+
+.resume-detail {
+    font-size: 16px;
+    line-height: 20px;
+    position: relative;
+    text-align: left;
+}
+
+.resume-detail-bullet {
+    display: inline-block;
+    width: 16px;
+}
+
+.resume-detail-content {
+    display: inline-block;
+}
+
+.resume-detail-date {
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+/* Skills Table */
+
+.resume-skills {
+    width: 100%;
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.resume-skills ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.resume-skills .skill-list-header {
+    font-weight: bold;
+}

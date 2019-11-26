@@ -1,0 +1,189 @@
+/* Panel */
+
+.side-panel {
+	width: 200px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #90b28e;
+    color: white;
+    overflow: auto;
+}
+
+.side-panel a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Photo */
+
+.side-panel-pic-container {
+	text-align: center;
+	padding: 15px;
+}
+
+.side-panel-pic {
+	height: 150px;
+    border-radius: 100px;
+}
+
+/* Links */
+
+.side-panel-link {
+    width: 100%;
+    cursor: pointer;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    position: relative;
+}
+
+.side-panel-link:hover {
+    background-color: #C7AB59;
+    z-index: 10;
+}
+
+.side-panel-link.active {
+    background-color: #e1dedb;
+    color: #4A3932
+}
+
+.side-panel-link-text {
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+}
+
+/* Icons */
+
+.side-panel-link-icon {
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+    height: 100%;
+    vertical-align: top;
+}
+
+.side-panel svg, .side-panel svg * {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    fill: #4A3932;
+}
+
+.side-panel-link-hover-icon {
+    width: 50px;
+    height: 50px;
+    float: right;
+    display: none;
+}
+
+.side-panel-link:hover .side-panel-link-hover-icon {
+    display: inline-block;
+}
+
+.side-panel-link:hover .side-panel-link-hover-icon svg,
+.side-panel-link:hover .side-panel-link-hover-icon svg * {
+    width: 20px;
+    height: 20px;
+    padding: 15px;
+    fill: #666;
+}
+
+/* Corners */
+
+.side-panel-link-corner {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: 0px;
+    background-color: inherit;
+    z-index: 5;
+}
+
+.side-panel-link-corner div {
+    width: 10px;
+    height: 10px;
+    background-color: #90b28e;
+}
+
+.side-panel-link-corner.top div{
+    border-radius: 0 0 10px 0;
+}
+
+.side-panel-link-corner.bottom div{
+    border-radius: 0 10px 0 0;
+}
+
+.side-panel-link-corner.top {
+    top: -10px
+}
+
+.side-panel-link-corner.bottom {
+    bottom: -10px
+}
+
+/* Sections */
+
+.side-panel-section {
+
+}
+
+/* Headers */
+
+.side-panel-section-header {
+	text-align: center;
+    height: 2px;
+    margin: 5px;
+    background: #d3cdc4;
+    border-radius: 2px;
+}
+
+/* Info */
+
+.side-panel-info {
+	text-align: center;
+	position: relative;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.side-panel-info-item {
+	text-align: center;
+    display: inline-block;
+    width: 100%;
+	height: 20px;
+	margin-bottom: 10px;
+}
+
+.side-panel-info-item.name {
+	font-weight: bold;
+    font-size: 18px;
+}
+
+.side-panel-info-item.title {
+	color: #EEE;
+}
+
+.side-panel-info-item .info-icon {
+	height: 16px;
+    width: 16px;
+    margin-right: 5px
+}
+
+.side-panel-info-item.location {
+    font-style: italic;
+    color: #EEE;
+}
+
+.side-panel-info-item.location svg {
+	height: 16px;
+    width: 16px;
+    padding: 0;
+    padding-right: 5px;
+}
+
+.side-panel-info-item.location svg, .side-panel-info-item.location svg * {
+	fill: #EEE;
+}
