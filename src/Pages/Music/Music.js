@@ -246,7 +246,7 @@ function getAlbums() {
 	return albums;
 }
 
-export function Music(props) {
+export function Music() {
 	return (
 		<div>
 			<p className='intro'>

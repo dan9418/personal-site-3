@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dan9418/personal-site-2.git"
+    "url": "git+https://github.com/dan9418/personal-site-3.git"
   },
   "eslintConfig": {
     "extends": "react-app"

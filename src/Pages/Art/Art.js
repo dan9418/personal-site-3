@@ -284,7 +284,7 @@ function getGalleries() {
 	return galleries;
 }
 
-export function Art(props) {
+export function Art() {
 	return (
 		<div>
 			<p className='intro'>

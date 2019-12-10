@@ -3,7 +3,7 @@ import "./Code.css";
 import { Gallery } from "../Art/Gallery/Gallery";
 import { PlayWhatDemo } from "./PlayWhatDemo";
 
-export function Code(props) {
+export function Code() {
 
 	return (
 		<div>
@@ -15,7 +15,11 @@ export function Code(props) {
 
 					<p>
 						Play What is a React component library I developed for visualizing music theory concepts.
-						It provides a simple API for configuring viewer components and creating your own.
+						It provides a simple API for configuring built-in viewer components and creating your own.
+					</p>
+
+					<p>
+						The beta version is currently available, but I am actively refining the architecture and features for the first major release.
 					</p>
 
 					<p>

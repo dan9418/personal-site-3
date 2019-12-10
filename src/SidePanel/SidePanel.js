@@ -49,7 +49,7 @@ export function SidePanel(props) {
 			<div className='side-panel-info'>
 				<div className='side-panel-info-item name'>Dan Bednarczyk</div>
 				<div className='side-panel-info-item title'>Web Developer</div>
-				<div className='side-panel-info-item location'>{ICONS.location}Davis, CA</div>
+				<div className='side-panel-info-item location'>{ICONS.location}Sacramento, CA</div>
 			</div>
 			<div className='side-panel-section'>
 				<div className='side-panel-section-header' />

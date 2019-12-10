@@ -17,16 +17,16 @@ function ResumePositionHeader(props) {
 	);
 }
 
-export function Resume(props) {
+export function Resume() {
 
 	return (
 		<div>
-			<h2>Professional Summary</h2>
+			<h2>About Me</h2>
 
 			<p>
-				I'm a web developer recently relocated from Pittsburgh, PA to the west coast.
-				I have full-stack experience, but strongly prefer frontend technologies.
-				I'm actively seeking a position where I can apply my diverse technical background to one of my many passions, which include agriculture, environmentalism, fitness, music, and community development.
+				I'm a web developer recently relocated from Pittsburgh, PA to Sacramento, CA.
+				I have full-stack experience, but specialize in frontend technologies.
+				Outside of work, I have many interests and hobbies, including music, fitness, nature, biking, cooking, and travelling.
 			</p>
 
 			<h2>Technical Skills</h2>
@@ -82,6 +82,17 @@ export function Resume(props) {
 			</div>
 
 			<h2>Work Experience</h2>
+
+			<ResumePositionHeader
+				company='CBS Interactive'
+				title='Frontend Engineer'
+				date='December 2019 - Present'
+				location='El Dorado Hills, CA'
+			/>
+
+			<ul>
+				<li>Will be using React to modernize <a href='https://www.maxpreps.com/' target='_blank'>MaxPreps.com</a></li>
+			</ul>
 
 			<ResumePositionHeader
 				company='Bentley Systems'
